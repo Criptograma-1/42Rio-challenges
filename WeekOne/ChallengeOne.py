@@ -30,7 +30,7 @@ class user:
 
 name = input('Por favor digite o seu nome: ')
 age = input('Por favor digite o sua idade: ')
-discord = input('Por favor digite o seu usuário no discord: ')
+discord = input('Por favor digite o seu id do discord: ')
 my_user = user(name, age, discord)
 my_user.my_print()
 decision = input('Quer exibir todos os usuários cadastrados (s/n):')
