@@ -14,7 +14,27 @@ Calcula área do telhado e quantidade de telhas necessárias para faze-lo.
 - [x] Faça a calculadora ter múltiplas funções
 
 ## Desafio #3 [fácil] — Soma de todos os números.
-Dada uma lista de números aleatórios realize a soma de todos os números e exiba na tela. A quantidade de números a serem somados e os números em si devem ser inseridos pelo usuário.
+Dada uma lista de números aleatórios realize a soma de todos os números e exiba na tela. a quantidade de números a serem somados e os números em si devem ser inseridos pelo usuário
+```bash
+# [input/entrada]
+ 4
+ 1 2 3 4
+# [output/saída]
+ 10
+```
 
 **bônus**: 
 - [x] Crie uma versão onde não seja necessário o usuário especificar a quantidade de números a serem somados (os números ainda devem ser passados no formato de lista)
+
+## Desafio #4 [fácil] — mínimo de três.
+Diversos números organizados em triplos serão passados, e o programa deve calcular para cada triplo qual é o menor número entre eles.
+```bash
+# [input/entrada]
+3 # (quantidade de triplos a serem processados)
+7 3 5 
+15 20 40
+300 550 137
+
+# [output/saída]
+3 15 137
+```
