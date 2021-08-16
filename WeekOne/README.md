@@ -12,3 +12,9 @@ Calcula área do telhado e quantidade de telhas necessárias para faze-lo.
 
 **bônus**: 
 - [x] Faça a calculadora ter múltiplas funções
+
+## Desafio #3 [fácil] — Soma de todos os números.
+Dada uma lista de números aleatórios realize a soma de todos os números e exiba na tela. A quantidade de números a serem somados e os números em si devem ser inseridos pelo usuário.
+
+**bônus**: 
+- [x] Crie uma versão onde não seja necessário o usuário especificar a quantidade de números a serem somados (os números ainda devem ser passados no formato de lista)
