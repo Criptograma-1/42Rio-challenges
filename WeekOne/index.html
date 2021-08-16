@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="ChallengeTwo.js"></script>
+  <style>
+    body{
+      background-color: cadetblue;
+    }
+    h1{
+      text-align: center;
+    }
+    div {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      width: 30%;
+      margin: auto;
+    }
+    input{
+      width: 90%;
+      margin: 10px 5%;
+    }
+    #calcular {
+      width: 30%;
+      height: 50px;
+      cursor: pointer;
+      margin: 5% 35%;
+
+    }
+  </style>
+  <title>Challenge#2 - Week One</title>
+</head>
+<body>
+  <h1>CALCULADORA DE TELHADOS</h1>
+  <div>
+    <h4>Dados do telhado</h4>
+  <label for="comprimento">Digite o comprimento do telhado (m):</label>
+  <input type="text" id="comprimento" name="comprimento">
+  <label for="largura">Digite a largura do telhado (m):</label>
+  <input type="text" id="largura" name="largura">
+  <label for="inclinacao">Digite a inclinação do telhado (%):</label>
+  <input type="text" id="inclinacao" name="inclinacao">
+  <label for="correcao">Digite o fator de correção :</label>
+  <input type="text" id="correcao" name="correcao">
+  <label for="consumo">Digite o consumo médio de telhas (telhas/m²):</label>
+  <input type="text" id="consumo" name="consumo">
+  <input type="button" id="calcular" value="CALCULAR" onclick=main()>
+  </div>
+  <div>
+    <h4>Resultados</h4>
+  <label for="altura">Altura do telhado (m)</label>
+  <input type="text" id="altura" name="altura">
+  <label for="quantidade">Quantidade de telhas</label>
+  <input type="text" id="quantidade" name="quantidade">
+</div>
+</body>
+</html>

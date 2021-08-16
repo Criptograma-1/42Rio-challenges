@@ -1,11 +1,13 @@
-### Challenge#1
-#### Mandatory features
-- [x] Ask user's name, age and discord id
-- [x] Print ```Seu nome é _____, você tem __ anos de idade, and seu usuário do discord é _____```
+## Desafio #1 [fácil] — entrada/saída básica de dados.
+Crie um programa que irá perguntar o nome, idade e id do discord, faça o programa responder de volta no seguinte formato:
+```Seu nome é _____, você tem __ anos de idade, and seu usuário do discord é _____```
 
-#### Bonus features
-- [x] Have the program write this information to a file for later access
-- [x] Have the program read this data from the file and display it on the screen in a list if there is more than one user.
+#### bônus 1: 
+- [x] Faça o programa gravar estas informações em um arquivo para ser acessado mais tarde
+#### bônus 2: 
+- [x] Faça o programa ler estes dados do arquivo e exibi-los na tela em lista caso haja mais de um usuário.
 
-#### Features implemented by the programmer
-- [x] Ask the user if he wants to display the list of registered users
+## Desafio #2 [fácil] — Calculadora simples e útil
+Uma parte importante da programação é aplicar a programação no seu dia-a-dia, seu desafio é criar uma calculadora que possui uso em sua vida.
+
+**bônus**: faça a calculadora ter múltiplas funções
